@@ -1,0 +1,81 @@
+
+.pdf{
+    position: relative;
+}
+.pdf .filtrage{
+    position: absolute;
+    right: 1.8rem;
+    top: 0.5rem;
+}
+.pdf .filtrage button{
+    background: #465950bf;
+    border: none;
+    padding: 0.2rem 0.3rem;
+    cursor: pointer;
+    color: var(--white);
+}
+.pdf .filtrage form{
+    padding: 0.4rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: absolute;
+    box-shadow: 0px 0px 10px black;
+    left: -0.5rem;
+    top: 1.8rem;
+    background: var(--white);
+}
+.pdf__container{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    height: 35rem;
+    overflow-y: scroll;
+    
+}
+
+.pdf__container h1{
+    text-decoration: underline;
+}
+
+.pdf__container > div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    width: 80%;
+}
+
+.pdf__container table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+th{
+    background: #5bc6e4;
+    color: var(--white);
+}
+
+.pdf__container table td{
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    vertical-align: top;
+    border: 1px solid rgba(0, 0, 0, 0.381);
+}
+
+.pdf__btn{
+    width: 100%;
+    position: relative;
+}
+
+.pdf__btn button{
+    background: #5bc6e4;
+    color: var(--white);
+    position: absolute;
+    right: 8rem;
+    top: 1rem;
+}

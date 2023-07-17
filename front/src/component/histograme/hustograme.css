@@ -1,0 +1,34 @@
+.histograme{
+    text-align: center;
+    color: var(--white);
+    margin-top: 1rem;
+    position: relative;
+}
+
+.histograme__conatiner{
+    width: 35rem;
+    height: 35rem;
+    margin: 0 auto;
+    display: flex;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.histograme .compte{
+    position: absolute;
+    right: 2rem;
+    bottom: 0;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(0, 0, 0, 0.639);
+}
+
+.histograme .seuil{
+    margin-top: 1.2rem;
+}

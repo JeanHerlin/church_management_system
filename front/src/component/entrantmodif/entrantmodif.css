@@ -1,0 +1,43 @@
+.modification{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 12, 8, 0.476);
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.modification form{
+    display: flex;
+    width: 40rem;
+    flex-direction: column;
+    background: #fff;
+    gap: 0.5rem;
+    padding: 2em 3rem;
+}
+
+.modification form h2{
+    margin-bottom: 1rem;
+    color: #9d8b8b;
+}
+
+.modification form input{
+    padding: 0.8rem 0.5rem;
+}
+.modification form label{
+    font-size: 1rem;
+    color: #9d8b8b;
+}
+
+.modification form button{
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.6rem 0;
+}

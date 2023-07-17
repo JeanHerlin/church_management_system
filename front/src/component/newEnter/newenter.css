@@ -1,0 +1,45 @@
+.addEnter{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 12, 8, 0.476);
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.addEnter form{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 23rem;
+    background: #fff;
+    gap: 0.5rem;
+    padding: 2em 3rem;
+}
+
+.addEnter form input{
+    padding: 0.8rem 1rem;
+}
+
+.addEnter form h2{
+    color: #9d8b8b;
+}
+.addEnter form label{
+    color: #9d8b8b;
+}
+.addEnter form button{
+    background: rgb(0, 200, 255);
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+}
+
+.addEnter form button.danger{
+    background: #F67661;
+}

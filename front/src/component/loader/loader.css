@@ -1,0 +1,8 @@
+.loader{
+    color: var(--white);
+    height: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

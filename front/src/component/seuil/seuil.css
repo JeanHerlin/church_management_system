@@ -1,0 +1,33 @@
+.seuilMontant{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 5, 4, 0.816);
+    position: fixed;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.seuilMontant > div{
+    display: flex;   
+    flex-direction: column;
+   justify-content: center;
+    width: 30rem;
+    height: 20rem;
+    background: #fff;
+    gap: 1rem;
+    padding: 2em 3rem;
+}
+
+
+.seuilMontant div button{
+    background: rgb(0, 200, 255);
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+}

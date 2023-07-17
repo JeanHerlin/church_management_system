@@ -1,0 +1,109 @@
+
+.auth__container{
+    height: 100vh;
+    background: #B6C5C1;
+    overflow: hidden;
+}
+
+.auth__container header{
+    height: 5rem;
+    background: var(--bg-principal);
+    display: flex;
+}
+
+.auth__container .container .app__name{
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.auth__container > .container{
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 0;
+}
+
+.auth__container form{
+    flex: 1;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 2rem 3.5rem;
+    color: #838383;
+}
+
+.auth__container form div{
+    position: relative;
+}
+
+.auth__container form h3{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color: #9d8b8b;
+}
+
+.auth__container form h5{
+    padding: 1rem;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.585);
+    margin-bottom: 1rem;
+    border: 1px solid red;
+}
+
+.auth__container form input{
+    width: 100%;
+    position: relative;
+    height: 3rem;
+    background: var(--white);
+    border-radius: 0.3rem;
+    transition: all .3s;
+    border: 1px solid #9d8b8b3d;
+    font-size: inherit;
+    color: #9d8b8b;
+    padding-left: 1rem;
+    
+}
+.auth__container form input.red{
+    border-color: rgba(255, 0, 0, 0.299);
+}
+.auth__container form label{
+    position: absolute;
+    left: 1.5rem;
+    top: 0.8rem;
+    opacity: 0.8;
+    transition: all .3s;
+    cursor: text;
+}
+
+.auth__container form button.btn{
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    background: #5FE0E9;
+}
+
+.auth__container input:focus ~ label ,.auth__container input:not(:placeholder-shown):not(:focus) ~ label{
+    top: -0.5rem;
+    left: 1.1rem;
+    font-size: 0.8rem;
+    background: var(--white);
+    padding: 0 0.4rem 0 0.4rem;
+}
+
+.auth__container span{
+    text-align: center;
+}
+
+.auth__container span span{
+    text-decoration: underline;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.auth__container .illustration{
+    flex: 1.3;
+}

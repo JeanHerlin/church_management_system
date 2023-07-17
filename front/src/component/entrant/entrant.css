@@ -1,0 +1,141 @@
+.entrant{
+    padding: 1.5rem 2rem;
+    height: 100%;
+}
+
+.entrant h2{
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.entrant h2 span{
+    color: #5bc6e4;
+}
+
+.entrant .content__top{
+    height: 12rem;
+    border-radius: 1rem;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background: url("../../assets/images/banner_10.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.entrant .content__top .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.entrant .content__top .left span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.entrant .content__top .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.entrant .content__top .right small{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.entrant .content__top .right span{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.entrant .content__bottom{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.entrant .content__bottom .heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.entrant .content__bottom .heading .heading__title{
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: 600;
+}
+.entrant .content__bottom .heading .actions{
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    gap: 1.5rem;
+}
+
+.entrant .content__bottom .actions .search{
+    display: flex;
+    gap: 0.2rem;
+}
+.entrant .content__bottom .actions .search input{
+    padding: 0 0.3rem;
+}
+.entrant .content__bottom .actions .search button{
+    background: #465950bf;
+    border: none;
+    padding: 0.2rem 0.3rem;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.entrant .content__bottom .actions .search .filtrage{
+    position: relative;
+}
+.entrant .content__bottom .search .filtrage form{
+    padding: 0.4rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: absolute;
+    box-shadow: 0px 0px 10px black;
+    left: -0.5rem;
+    top: 1.8rem;
+    background: var(--white);
+}
+
+.entrant .content__bottom .table{
+    width: 100%;
+}
+
+.tableClase{
+    overflow-y: scroll;
+}
+
+.entrant .content__bottom .table table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+th{
+    background: #5bc6e4;
+    color: var(--white);
+    padding: 0.5rem 1.5rem;
+}
+
+td{
+    padding: 0.5rem 1.5rem;
+}
+
+th,td{
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid rgba(0, 0, 0, 0.381);
+}
+
+.entrant tr:nth-child(2n){
+    background: #3b4a43ce;
+    color: #c4e1da;
+}

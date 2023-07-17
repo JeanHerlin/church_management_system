@@ -1,0 +1,139 @@
+.home{
+    background: #465950;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home .leftSide{
+    flex: 1;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #707070;
+}
+
+.home .leftSide .top{
+    padding: 0 2rem;
+}
+
+.home .leftSide > div > span{
+    background: #b3b3b347;
+    padding: 0.4rem 0.8rem;
+    font-size: 13px;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.home .leftSide .navigation{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.home .leftSide .navigation div{
+    position: relative;
+    padding: 0.8rem 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #e2e2e2;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.home .leftSide .navigation div:hover{
+    background: #7ac59351;
+    color: #7AC593;
+}
+
+.home .leftSide .navigation div:hover::before{
+    background: #7AC593;
+    width: 100%;
+}
+
+.home .leftSide .navigation div::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.3rem;
+    width: 0;
+    transition: all .3s;
+}
+
+.home .leftSide .navigation div.active{
+    background: #7ac59351;
+    color: #7AC593;
+}
+
+.home .leftSide .navigation div.active::before{
+    background: #7AC593;
+    width: 100%;
+}
+
+.home .rightSide{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home .rightSide > .top{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 4rem;
+    border-bottom: 1px solid #707070;
+    margin: auto;
+    overflow: hidden;
+}
+
+.home .rightSide .top .bible{
+    width: 3rem;
+}
+.home .rightSide .top div{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.home .rightSide .top span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.home .rightSide .top input{
+    background: #b3b3b347;
+    border: none;
+    color: #e2e2e2;
+    font-weight: 600;
+    width: 20rem;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.home .rightSide .bottom{
+    padding: 1rem 2rem;
+    width: 100%;
+    height: 88vh;
+}
+
+.rightSide__bottom-container{
+    background: #fff9f93e;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    
+}

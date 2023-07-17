@@ -1,0 +1,119 @@
+.landingpage{
+    width: 100%;
+}
+
+.landingpage header{
+    height: 5rem;
+    background: var(--bg-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo{
+    width: 5rem;
+    
+}
+
+header .container .auth{
+    display: flex;
+    gap: 1rem;
+}
+
+header .container .auth .signIn{
+   background: rgba(0, 0, 0, 0.319);
+}
+
+header .container .auth .signUp{
+    background: #78a1cfdc;
+}
+
+.landingpage > .landingpage__container{
+    height: 100vh;
+    width: 100wv;
+    background: url("../../assets/langingBg.png") no-repeat;
+    background-size: cover;
+}
+
+.landingpage .langding__overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+.landingpage .langding__overlay .header{
+    padding: 10rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.langding__overlay .content span{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.langding__overlay .content p{
+    margin: 1rem 0;
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+}
+
+.langding__overlay .content .btn{
+    font-size: 1.2rem;
+    padding: 0.6rem 1.5rem;
+    background: #78a1cfdc;
+}
+
+.langding__overlay .slider__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.langding__overlay .slider__container .content{
+    background: var(--bg-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.langding__overlay .slider__container .content p{
+    color: rgb(214, 214, 214);
+}
+
+.langding__overlay .slider__container .content i{
+    color: #7AC593;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background: #7ac59340;
+}
+
+footer{
+    background: var(--bg-principal);
+    height: fit-content;
+}
+
+footer .container{
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+footer .container div{
+    text-decoration: underline;
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 1px solid black;
+}
